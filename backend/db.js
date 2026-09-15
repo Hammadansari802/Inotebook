@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const mongoURI = "mongodb://127.0.0.1:27017/inotebooks";
+const mongoURI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/inotebooks";
 const connecttomongo = async () => {
     try {
         await mongoose.connect(mongoURI);
