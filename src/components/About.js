@@ -46,9 +46,9 @@ const About = () => {
               <div style={{ width: 12, height: 12, borderRadius: "50%", background: "#10b981" }}></div>
               <span className="ms-auto text-muted font-monospace" style={{ fontSize: "0.75rem" }}>iNotebook.js</span>
             </div>
-            {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-            <div className="card-body p-3 font-monospace" style={{ fontSize: "0.85rem", color: "#38bdf8" }}>
-              <p className="mb-1 text-secondary">// Fetching user notes securely</p>
+          <div className="card-body p-3 font-monospace" style={{ fontSize: "0.85rem", color: "#38bdf8" }}>
+  {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+  <p className="mb-1 text-secondary">// Fetching user notes securely</p>
               <p className="mb-1"><span style={{ color: "#f472b6" }}>const</span> fetchNotes = <span style={{ color: "#f472b6" }}>async</span> () =&gt; &#123;</p>
               <p className="mb-1 ms-3 text-white"><span style={{ color: "#f472b6" }}>const</span> token = localStorage.getItem(<span style={{ color: "#a3e635" }}>'token'</span>);</p>
               <p className="mb-1 ms-3 text-white"><span style={{ color: "#f472b6" }}>const</span> res = <span style={{ color: "#f472b6" }}>await</span> fetch(<span style={{ color: "#a3e635" }}>'/api/notes'</span>);</p>
