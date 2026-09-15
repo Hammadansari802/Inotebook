@@ -12,7 +12,7 @@ const Note = (props) => {
   // restructure the notes to be an array of objects
   const context = useContext(noteContext)
   const {notes, getnotes,editNote} = context
-  const {showAlert} = props
+ 
   
   useEffect(() => {
     if(localStorage.getItem('token')){

@@ -51,6 +51,7 @@ const About = () => {
               <p className="mb-1"><span style={{ color: "#f472b6" }}>const</span> fetchNotes = <span style={{ color: "#f472b6" }}>async</span> () =&gt; &#123;</p>
               <p className="mb-1 ms-3 text-white"><span style={{ color: "#f472b6" }}>const</span> token = localStorage.getItem(<span style={{ color: "#a3e635" }}>'token'</span>);</p>
               <p className="mb-1 ms-3 text-white"><span style={{ color: "#f472b6" }}>const</span> res = <span style={{ color: "#f472b6" }}>await</span> fetch(<span style={{ color: "#a3e635" }}>'/api/notes'</span>);</p>
+              {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
               <p className="mb-1 ms-3 text-emerald-400" style={{ color: "#4ade80" }}>// Status: 200 OK (JWT Verified)</p>
               <p className="mb-0">&#125;;</p>
             </div>
@@ -123,6 +124,7 @@ const About = () => {
             <i className="fab fa-node-js text-success me-2"></i>Node.js
           </span>
           <span className="badge bg-white text-dark border px-3 py-2 rounded-pill shadow-sm fs-6">
+            {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
             <i className="fas fa-server text-secondary me-2"></i>Express.js
           </span>
           <span className="badge bg-white text-dark border px-3 py-2 rounded-pill shadow-sm fs-6">
